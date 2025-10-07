@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorador de Pokémons - Aula de APIs</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <!-- Favicon simples usando emoji -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚪</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+
+    </header>
+
+    <section class="search-section">
+      <div class="search-container">
+        <label for="pokemon-input" class="search-label">Digite o nome ou número do Pokémon:</label>
+        <div class="input-group">
+          <input 
+            type="text" 
+            id="pokemon-input" 
+            class="pokemon-input" 
+            placeholder="Ex: pikachu, 25, charizard..."
+            autocomplete="off"
+          >
+          <button id="search-btn" class="search-btn">Buscar Pokémon 🔍</button>
+        </div>
+        
+        <div class="examples">
+
+        </div>
+    </section>
+
+    <section class="status-section">
+
+    </section>
+
+    <section class="results-section">
+      <div id="pokemon-card" class="pokemon-card hidden">
+        <div class="pokemon-image-container">
+
+        </div>
+        
+        <div class="pokemon-info">
+
+          <div id="pokemon-types" class="pokemon-types"></div>
+          
+          <div class="pokemon-details">
+            <div class="detail-item">
+
+            </div>
+            <div class="detail-item">
+
+            </div>
+            <div class="detail-item">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+    </footer>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

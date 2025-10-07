@@ -1,0 +1,72 @@
+# ========================================
+# 🔴 EXPLORADOR DE POKÉMONS - .gitignore
+# ========================================
+
+# 📦 Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 🔧 Arquivos de lock (opcional - você pode versionar package-lock.json)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 🏗️ Build e distribuição
+dist/
+build/
+.vite/
+
+# 🌍 Variáveis de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 📝 Logs
+logs
+*.log
+
+# 🗂️ Cache de ferramentas
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# 🧪 Coverage de testes
+coverage/
+*.lcov
+
+# 🔍 Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 🖥️ Arquivos do sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 📱 Arquivos temporários
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# 🔄 Arquivos de backup
+*.bak
+*.backup
+*.old
+
+# 📊 Arquivos de análise
+.nyc_output/
+.storybook-out/

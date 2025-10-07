@@ -1,0 +1,30 @@
+# ========================================
+# 🔴 EXPLORADOR DE POKÉMONS - .gitattributes
+# ========================================
+
+# 📝 Arquivos de texto
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# 📦 Arquivos de configuração
+*.config.js text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# 🖼️ Arquivos binários
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text eol=lf
+
+# 📚 Linguagem para syntax highlighting no GitHub
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+*.json linguist-language=JSON
+*.md linguist-language=Markdown
